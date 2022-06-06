@@ -4,8 +4,10 @@
 
 body {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   background-color: black;
 }
 div {
@@ -16,7 +18,8 @@ div {
   margin: 5px;
   padding: 10px;
   border-radius: 20px;
-  width: 70vw;
+  width: 40vw;
+  height: 60vh;
 }
 
 img {
