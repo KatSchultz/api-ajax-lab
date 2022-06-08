@@ -12,6 +12,11 @@ body {
   background-color: black;
   width: 100%;
 }
+input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
 div {
   display: flex;
   /* flex: 1; */
@@ -19,24 +24,34 @@ div {
   align-items: center;
   justify-content: center;
   background-color: lightskyblue;
-  margin: 5px;
+  margin: 10px;
   padding: 20px;
   border-radius: 20px;
-  width: 90vw;
+  width: 80vw;
   height: fit-content;
   /* overflow: auto; */
 }
 p {
   /* display: inline-block */
   /* width: 30% */
-  max-width: 80vw;
+  max-width: 70vw;
   padding: 10px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 img {
-  max-width: 150px;
-  border: 2px solid white;
+  max-width: 400px;
+  border: 4px solid white;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+  color: chocolate;
+  font-weight: bolder;
+  padding: 10px;
+}
+button {
+  padding: 10px 30px;
   border-radius: 5px;
 }
 
