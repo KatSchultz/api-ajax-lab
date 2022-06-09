@@ -31,16 +31,9 @@ div {
   height: fit-content;
   /* overflow: auto; */
 }
-p {
-  /* display: inline-block */
-  /* width: 30% */
-  max-width: 70vw;
-  padding: 10px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+
 img {
-  max-width: 400px;
+  max-width: 200px;
   border: 4px solid white;
   border-radius: 5px;
 }

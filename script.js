@@ -31,7 +31,7 @@ const displayPosts = getData.then((jsonData) => {
 //CLICK HANDLER
 submitBtn.addEventListener("click", () => {
   let newSub = input.value;
-  const getNewData = fetch(`https://www.reddit.com/r/${newSub}/.json`)
+  fetch(`https://www.reddit.com/r/${newSub}/.json`)
     .then((res) => res.json())
     .then((jsonData) => {
       let posts = jsonData.data.children;
